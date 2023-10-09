@@ -1,0 +1,35 @@
+*{
+  
+  margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  max-width: 1200px;
+  aspect-ratio: 16/9;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: rgb(125, 85, 60);
+  background: radial-gradient(circle, rgba(125, 85, 60, 1) 0%, rgba(112, 112, 112, 1) 93%);  
+  background-position: center;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+ 
+
+}
+.remove-icon{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+

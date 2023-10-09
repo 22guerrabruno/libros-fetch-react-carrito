@@ -1,0 +1,167 @@
+
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color : black;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border:1px solid black;
+  border-radius: 10px;
+  
+}
+
+.nav-imput{
+  width: 100%;
+  align-items: left;
+  
+}
+
+.nav-cart{
+  width: 100%;
+  align-items: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+ 
+}
+
+.nav-cart svg{
+  border: 1px solid black;
+  
+  padding:0 ;
+  cursor: pointer;
+  margin-right: 10px;
+}  
+.nav-cart svg:hover{
+
+
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+ input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: medium;
+ }
+ 
+ .logo{
+  width: 200px;
+ }
+
+ .books{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: rgb(77, 83, 77);
+  
+}
+.movie{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  width: 350px;
+}
+.card-icon{
+  width: 30px;
+  height: 30px;
+  
+
+}
+
+img{
+  width: 200px;
+}
+li{
+
+  list-style-type: none;
+}
+button{
+  cursor: pointer;
+  
+
+}
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.books-reading-cart-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(179, 179, 179);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  color: black;
+  width: 600px;
+
+}
+.books-reading-cart-list{
+  width: 100%;
+}
+.books-reading-cart-header{
+  background-color: grey;
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+}
+.book-reading-cart-item {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  width: 100%;
+  align-items: center;
+  border: 1px solid black;  
+  border-radius: 15px;
+  margin: 10px;
+
+}
+.book-reading-cart-item img{  
+  height: 80px;
+  width: auto;  
+  border-radius: 10px;
+  margin: 10px;
+ 
+}
+.loading{
+  width: 700px;
+  height: 500px;
+  display: grid;
+  grid-area: 
+  ". . ."
+  ". loading-icon ."
+  ". . .";
+  place-items: center;
+ 
+ justify-content: center;
+ align-items: center;
+  
+
+}
+.loading-icon{
+padding: 60px;
+width: 100%;
+height: auto;
+border: 3px solid black;
+border-radius: 20px;
+ 
+}
